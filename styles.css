@@ -79,8 +79,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--green); outline
 .orbit { position: absolute; border: 1px solid rgba(195, 241, 123, .18); border-radius: 50%; }
 .orbit-one { width: 280px; height: 280px; }
 .orbit-two { width: 220px; height: 220px; border-style: dashed; animation: orbit 38s linear infinite; }
-.monogram { width: 158px; height: 158px; display: grid; place-items: center; border: 1px solid rgba(195, 241, 123, .36); border-radius: 50%; background: radial-gradient(circle at 35% 30%, #2b3b2b, #19231d 68%); box-shadow: 0 0 70px rgba(160, 205, 113, .1); font: 800 82px/1 var(--font-display); letter-spacing: -8px; padding-right: 8px; }
-.monogram span { color: var(--green); }
+.profile-photo { width: 184px; height: 184px; border: 1px solid rgba(195, 241, 123, .5); border-radius: 50%; object-fit: cover; object-position: center 25%; box-shadow: 0 0 70px rgba(160, 205, 113, .16); }
 .orbit-caption { position: absolute; bottom: 0; color: #bdc9b9; font: 10px var(--font-mono); letter-spacing: 1.3px; }
 .orbit-spark { position: absolute; z-index: 1; color: var(--green); }
 .spark-one { top: 28px; right: 52px; font-size: 23px; }
@@ -122,6 +121,10 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--green); outline
 .experience-list li { padding-left: 4px; margin: 7px 0; }
 .experience-list li::marker { color: var(--green); }
 .timeline-content .tag-list { margin-top: 17px; }
+.inovansa-gallery { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-top: 24px; }
+.inovansa-gallery figure { min-width: 0; margin: 0; overflow: hidden; border: 1px solid var(--line); border-radius: 6px; background: var(--card); }
+.inovansa-gallery img { display: block; width: 100%; aspect-ratio: 16 / 10; object-fit: cover; object-position: top; }
+.inovansa-gallery figcaption { padding: 9px 11px; color: #bdc9b9; font-size: 11px; }
 .compact-heading { margin-bottom: 39px; }
 .education-entry { padding: 0 0 22px 18px; margin-bottom: 23px; border-left: 1px solid rgba(195, 241, 123, .36); }
 .education-entry h3 { margin: 9px 0 3px; }
@@ -164,6 +167,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--green); outline
   .section-heading { margin-bottom: 34px; }
   .timeline-item { grid-template-columns: 1fr; gap: 13px; }
   .work-type { margin-top: 2px; }
+  .inovansa-gallery { grid-template-columns: 1fr; gap: 14px; }
   .contact-section { padding: 75px 0; }
 }
 
