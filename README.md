@@ -46,7 +46,7 @@ Proyek ini berupa situs statis dan tidak memerlukan framework JavaScript, server
 │       └── static.yml
 ├── CV_Razi_Syahriful_Zanah_FullStack_UIUX_Linux_ITSupport.pdf
 ├── Inovansa.png
-├── foto-razi animasi.jpeg
+├── pas_foto_Razi Syahriful_Zanah.jpg
 ├── index.html
 ├── inovansa 3.png
 ├── inovansa inventory.png
@@ -61,7 +61,7 @@ Proyek ini berupa situs statis dan tidak memerlukan framework JavaScript, server
 | `styles.css` | Gaya visual, tata letak responsif, dan animasi. |
 | `script.js` | Tahun footer, animasi reveal, dan perilaku menu seluler. |
 | `CV_Razi_Syahriful_Zanah_FullStack_UIUX_Linux_ITSupport.pdf` | CV yang ditautkan pada tombol unduh. |
-| `foto-razi animasi.jpeg` | Foto profil di bagian hero. |
+| `pas_foto_Razi Syahriful_Zanah.jpg` | Foto profil di bagian hero. |
 | `Inovansa.png` | Gambar situs Inovansa pada galeri pengalaman. |
 | `inovansa inventory.png` | Gambar produk Inventory pada galeri pengalaman. |
 | `inovansa 3.png` | Gambar produk NgajarBeres pada galeri pengalaman. |
